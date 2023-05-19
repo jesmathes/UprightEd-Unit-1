@@ -1,0 +1,75 @@
+/* 
+Building blocks  selector
+{
+
+    [Declaration Block]
+    property: value;
+
+}
+
+*/
+body
+{ 
+background-color: goldenrod
+}
+nav
+{background-color: green}
+nav {
+    background-color: grey;
+    /* 
+ - preset color: red, blue, yellow, etc
+ - rgb , rgba 'a' is alpha, determines transparency
+ - ex: rgba(200, 15, 100, 0.5)
+ - each color scales from 0 - 255
+ 
+
+*/
+
+    overflow: hidden;
+
+}
+
+.btn {   
+     /* Periods indicate class  */
+    float: right;
+    color: black;
+    /* color: black!important; */
+    text-align: center;
+    padding: 14px 16px;
+    /* padding: 14px 16px 14px 16px; */
+    /* padding: 14px; means all sides are 14 */
+    /* padding: clock-wise */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#home {
+    /* Hash (#) indicates ID */
+    float: left;
+}
+
+nav .btn {
+/* Pints to a nav  and ANY class within it, or children of, name "btn
+ */
+text-shadow: 2px 2px 2px black;
+/* x,y,blur,color */
+}
+
+
+div .paragraph > p {
+    color: red;
+}
+
+.paragraph + div {
+    color: purple;
+}
+
+
+a:hover {
+    color: cornflowerblue;
+}
+
+a:active {
+    color: darkcyan;
+    text-shadow:  2px 2px 2px rgb(204, 32, 66) ;
+}

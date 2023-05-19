@@ -1,0 +1,145 @@
+<!-- MAY 11 -->
+<!--  
+    "!" , or "Bang" is a way for us to quickly create a boilerplate for our HTML
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<!--  "Ctrl + /"   or    "cmd  +  /" also creates this green comment line  -->
+
+<!-- 
+        - DOCTYPE: DECLARES EXACTLY WHAT IT IS, HTML DOCUMENT.
+        - lang: notes what the language of the document is. Helps assist search engines & browsers.
+        - The Head tag holds all of our meta data for the document.
+    -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to HTML</title>
+    <!-- 
+        <head> holds various info such as title; viewport settings; links.
+        - charset: defines which characters are available. ex: 0-9; a-z, A-Z; symbols
+        - UTF-8: means it covers almost all of the characters.
+        - http-equiv: allows us to render older browser versions if necessary.
+        - Name and Content: Name: Details on the user viewport,or screen; Content: measures the viewport and auto-scales to 100% as necessary.
+        - <title>: The title of our document.  Displayed in the tab of the browser.
+
+            head: info for browser
+            body: everything we want page to show
+    -->
+</head>
+
+<body>
+
+    <!-- <style background-color></style> </style> -->
+
+    <!--  EVERYTHING YOU WANT THE USER TO SEE WILL BE IN THE BODY 
+            - what client (browser) will display when rendering) -->
+    Hello Hello
+    <h1> Example of Structural Element</h1>
+    Examples of Structural Element
+
+    <div>
+        <!-- like a container: holding something like text or other elements -->
+        <div>
+            - h1: Heading from 1-6 diff sizes.
+            <br />
+            - div: a division.
+            - p: a paragraph element.
+            <br />
+            - img: provides an element to present an image.
+            - span: we can write a block of text without line breaks.
+
+        </div>
+        <h2> sample h2</h2>
+        <h3>sample h3</h3>
+        <p> this is a paragraph element</p>
+        <!-- Using Emmet, we can inject "lorem" and hit tab to populate a block of text. -->
+        <span>
+            <!-- lorem10 -->
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, similique.
+        </span>
+        <img src="https://assets.website-files.com/5f4577933a0688792f77983b/5ffcaf5bf69d7dbee581b8e3_01_11-21_UPRIGHT_LOGO_800.png"
+            alt="Logo">
+        <img src="../assets/url.png" alt="example"> 
+        <img src="#" alt="broken image">
+    </div>
+    <!--  
+        img tag has two default attributes
+        -src
+            - required
+            - source of the image
+        - alt
+            - optional - highly recommended
+            -->
+            <h1>Examples of styled elements</h1>
+        <!-- emmet example (this is how it's typed, to creeate the lists in the divs below here): div>ul>li*8 
+        ul:unordered list with 8 list items all within a parent div -->
+    <div>
+        <ul>
+            <li><strong> bolds text</strong> as does <b>like this</b></li>
+            <li><em>emphasis</em> just like <i>italics </i></li>
+            <li><br>will do a line break for us <i>notice the no closing tags?</i></li>
+            <li><hr> gives a horizontal rule or <b> dividing line</b></li>
+            <li><blockquote>this is a blockquote</blockquote></li>
+            <!-- what's the blockcode? it defaults it to a different margin... more centered... can see it in inspect -->
+            <li><pre>a way to showcase code</pre></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <h1> Examples of Self-Closing Elements</h1>
+    <div>
+        <!-- 
+                Input; Input Fields: Usually used in forms ... name;date;ss#;etc. Automatic Styling: They all their own diff types of elements styles aspects assigned to them. Doesn't work if not correct type of input.
+                - if i want email input, it has to have the    @ .com   or it gets confused
+                - many different ones, like numbers; text; radial (selct buttons, check boxes;  THESE ARE INPUT FIELDS. ask google: input.html)
+                -link: won't show up in the browser, but allows us to connect other files (like CSS)
+            -->
+        <input type="color">
+        <input type="color" name="" id="">
+        <input type="text">
+        <input type="date">
+        <input type="checkbox">
+        <input type="text" name="" id="">
+        <link rel="stylesheet" href="#"> <!--this would go up in the boilerplate stuff head sections --> 
+    </div>
+
+<!-- elements w/in a tag help define some of it's properties -->
+<!-- can use style attributs,,,, called inline styling... see more when do CSS -->
+
+
+
+<!-- sample HTML layout of page structure -->
+
+
+    <img src="../assets/layout.png " alt="sample layout">
+    
+    <div>
+        <header>header</header>
+        <aside>aside</aside>
+        <section>
+            <article>article 1 </article>
+            <article>article 2</article>
+        </section>
+        <footer>footer</footer>
+
+    </div>
+
+</body>
+
+</html>
+        <!-- Quick Keys inside of VSCode:
+            -command enter       
+            -command forward   
+            to move cursor to end of line, or next line-->
+
+
+            Coding is: 
+            - repitition; 
+            - building out stuff; 
+            - being challenged to solve the problem;
+            - thinking about the logic that is detailed within it, and then writing the syntax that's required for the program to underatand what you mean.

@@ -1,0 +1,75 @@
+May 11 start
+
+
+
+- command enter:to move cursor to end of line       
+- command forward:  move cursor to next line  
+
+
+-  shift/opt/up or down     to copy
+
+- option-CMD-I to pull up inspect tool
+
+- 
+<!-- - ctrl-D  multi-line   -->WRONG
+**Quick Keys inside of VSCode:**
+
+
+- Ctrl/~   opens terminal in vscode
+
+
+DRY code (do not repeat yourself)
+
+**Extensions:**
+
+- installed MAY 11; look up specs later:
+
+Auto Rename Tag
+Better Comments
+Comment Anchors
+indent-rainbow
+node.js exec
+Live Server
+
+
+- Install later:
+
+code runner
+es7+ react/redux/react-N...
+ESLint
+live preview
+markdown all in one
+material icon theme (theme eric's vscode using)
+open in browser
+path intellisense
+reactjs code snippets
+babel es6/es7 syntax coloring
+
+Might want to find alternate text to make coding along easier.... or cange background color, or something.
+
+**Uninstalled: **
+
+prettier
+
+may 16 installed prettier
+
+in VSCode settings:
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+to default prettier across the board
+
+ 
+
+
+
+
+          Coding is: 
+            - repitition; 
+            - building out stuff; 
+            - being challenged to solve the problem;
+            - thinking about the logic that is detailed within it, and then writing the syntax that's required for the program to underatand what you mean.
+

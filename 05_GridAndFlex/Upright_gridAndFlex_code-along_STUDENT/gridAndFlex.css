@@ -1,0 +1,70 @@
+/* ! GRID STYLING */
+/* 
+grid-templates-rows: 2fr 20% 200px;  <-- details the rows only.
+grid-templates-columns: 2fr 50% 100px;  <-- details the columns only.
+
+column::after-required
+-If not set, only one column default
+- 
+row:
+
+
+gap::
+
+
+*/
+.grid-sample {
+    display: grid;
+    grid-template: repeat(4, 25%) / repeat(8, 12.5%);
+    
+}
+/* rows be divided into quarters
+columns divided into 8th */
+
+.grid-sample h1 {
+    text-align: center;
+    grid-column: span 8;
+    /* the h1 spans the width of 8 columns */
+    
+}
+
+#grid-sidebar {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    /* get the comment from video 1:14 */
+    
+}
+
+#grid-article {
+    grid-area:  2 / 3 / 3 / 9;
+    /* r st  / c st / r end / c end */
+    
+}
+
+.grid-sample footer {
+
+    text-align: center;
+    grid-column: 1 / span 8;
+    grid-row: 4;
+}
+/*  - starts in column 1 ijiniwenienf */
+
+
+/* ! FLEX STYLING */
+.flex-sample {
+    
+}
+
+#flex-container {
+    
+}
+
+#inside-card {
+    
+}
+
+.flex-sample footer {
+    
+}

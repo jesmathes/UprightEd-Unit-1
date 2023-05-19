@@ -1,0 +1,11 @@
+
+
+#keypad{
+
+}
+
+.grid-sample {
+    display: grid;
+    grid-template: repeat(3, 33.3%) / repeat(4, 25%);
+    
+}
