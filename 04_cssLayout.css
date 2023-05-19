@@ -2,7 +2,6 @@ body {
     background-color: silver;
 }
 
-
 .sample {
     border: solid black 1px;
     height: 50px;
@@ -10,25 +9,25 @@ body {
     margin:  10px;
 }
 
-
 #block-sample {
     display: block;
 }
 
 #inline-sample {
     display: inline;
-    /* padding:  */  
+    /* padding: 10px;  */  
 }
 
 #none-sample {
-display: none;
+    display: none;
 }
 
 .block-elements {
-    border: 1px solid rgb(255, 0, 85);
-}
-.inline-elements {
     border: 1px solid rgb(38, 0, 255);
+}
+
+.inline-elements {
+    border: 1px solid rgb(255, 0, 85);
 }
 
 #relative-sample {

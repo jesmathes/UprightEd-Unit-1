@@ -20,10 +20,13 @@
     <title>Intro to HTML</title>
     <!-- 
         <head> holds various info such as title; viewport settings; links.
-        - charset: defines which characters are available. ex: 0-9; a-z, A-Z; symbols
-        - UTF-8: means it covers almost all of the characters.
+        - charset: defines which characters are available. 
+            - ex: 0-9; a-z, A-Z; symbols
+            - UTF-8: means it covers almost all of the characters.
         - http-equiv: allows us to render older browser versions if necessary.
-        - Name and Content: Name: Details on the user viewport,or screen; Content: measures the viewport and auto-scales to 100% as necessary.
+        - Name and Content: 
+            Name: Details on the user viewport,or screen; 
+            Content: measures the viewport and auto-scales to 100% as necessary.
         - <title>: The title of our document.  Displayed in the tab of the browser.
 
             head: info for browser
@@ -36,7 +39,7 @@
     <!-- <style background-color></style> </style> -->
 
     <!--  EVERYTHING YOU WANT THE USER TO SEE WILL BE IN THE BODY 
-            - what client (browser) will display when rendering) -->
+            - body: what client (browser) will display when rendering) -->
     Hello Hello
     <h1> Example of Structural Element</h1>
     Examples of Structural Element
@@ -61,11 +64,12 @@
             <!-- lorem10 -->
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, similique.
         </span>
+
         <img src="https://assets.website-files.com/5f4577933a0688792f77983b/5ffcaf5bf69d7dbee581b8e3_01_11-21_UPRIGHT_LOGO_800.png"
             alt="Logo">
         <img src="../assets/url.png" alt="example"> 
         <img src="#" alt="broken image">
-    </div>
+    
     <!--  
         img tag has two default attributes
         -src
@@ -74,16 +78,20 @@
         - alt
             - optional - highly recommended
             -->
+        </div>
+        <h3>Change</h3>
             <h1>Examples of styled elements</h1>
-        <!-- emmet example (this is how it's typed, to creeate the lists in the divs below here): div>ul>li*8 
+        <!-- emmet example (this is how it's typed, to create the lists in the divs below here): div>ul>li*8 
         ul:unordered list with 8 list items all within a parent div -->
+        <!-- Copied from Eric's: emmet example: div>ul>li*6
+        ul: Unordered list with 6 list items all within a parent div. -->
     <div>
         <ul>
-            <li><strong> bolds text</strong> as does <b>like this</b></li>
-            <li><em>emphasis</em> just like <i>italics </i></li>
-            <li><br>will do a line break for us <i>notice the no closing tags?</i></li>
-            <li><hr> gives a horizontal rule or <b> dividing line</b></li>
-            <li><blockquote>this is a blockquote</blockquote></li>
+            <li><strong>Bolds our text</strong> but so does <b>this</b>.</li>
+            <li><em>Provides emphasis</em> or <i>italics</i></li>
+            <li><br />Will do a line break for us. <i>Notice the no closing tags?</i></li>
+            <li><hr />Gives us a horizontal rule or <b>dividing line</b></li>
+            <li><blockquote>"quote"</blockquote></li>
             <!-- what's the blockcode? it defaults it to a different margin... more centered... can see it in inspect -->
             <li><pre>a way to showcase code</pre></li>
             <li></li>
@@ -99,13 +107,16 @@
                 - many different ones, like numbers; text; radial (selct buttons, check boxes;  THESE ARE INPUT FIELDS. ask google: input.html)
                 -link: won't show up in the browser, but allows us to connect other files (like CSS)
             -->
-        <input type="color">
-        <input type="color" name="" id="">
+            <!-- copied from ERIC'S: input: typically used in forms but not limited.
+                - Many different types: numbers, text, radial, emails, passwords, etc. -->
+       
+        <input type="color" name="color" id="">
         <input type="text">
-        <input type="date">
         <input type="checkbox">
-        <input type="text" name="" id="">
-        <link rel="stylesheet" href="#"> <!--this would go up in the boilerplate stuff head sections --> 
+        <input type="date" name="date" id="">
+          <!--this below would go up in the boilerplate stuff head sections --> 
+        <link rel="stylesheet" href="#"> 
+      
     </div>
 
 <!-- elements w/in a tag help define some of it's properties -->
@@ -116,7 +127,7 @@
 <!-- sample HTML layout of page structure -->
 
 
-    <img src="../assets/layout.png " alt="sample layout">
+<img src="../assets/web_layout_example.jpg" alt="sample web page layout">
     
     <div>
         <header>header</header>
