@@ -6,9 +6,9 @@
         property: value;
     }
 */
-/* body {
+body {
     background-color: darkgoldenrod
-} */
+}
 
 nav {
     background-color: #d2d2d2;
@@ -18,7 +18,7 @@ nav {
             - alpha determines transparency
             - ex: rgba(200, 15, 100, 0.5)
             - each color scales from 0 - 255
-        - Hexidecimal
+        - Hexadecimal
             - 16 digit: 0-9, A-F
             - #d2f
     */
@@ -61,11 +61,11 @@ div .paragraph > p {
 }
 
 a:hover {
-    color: lightblue;
+    color: rgb(173, 230, 182);
 }
 
 a:active {
-    color: purple;
+    color: rgb(223, 42, 54);
     text-shadow: 2px 2px 2px rgb(255,255,255);
 }
 

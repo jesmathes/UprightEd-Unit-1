@@ -1,0 +1,127 @@
+/*! Media Query Build */
+/*  common units of measurements
+    -%
+    - Vwport W - vw
+    - Vwport H - vh
+    - ROOT ELMNT FONT  size - rem
+    - Parent font size - em
+
+
+    Using Media Queries 
+
+    ex::after
+    @media screen {  <-- targets screens only
+        div {   <-- Element to adjust background color: blue;   <-- attribute of element
+        }
+    }
+
+    ? AND
+    @media screen and (min-width: 750px)  {
+        ... elements declared here
+    }
+
+    ? OR
+      @media screen,  (min-width: 750px)  {
+        ... elements declared here
+    }
+
+* Build with mobile First concept!    
+
+*/
+
+}
+@media (max-width: 400px) {
+    /* body {
+        background-color: darkred;
+    } */
+
+
+/* Global */
+p {
+    font: 16 pt;
+}
+
+nav ul li {
+    font-size:  x-large;
+    margin: 0 1.5rem;
+}
+
+
+
+
+/* Menu */
+
+.item-desc {
+    width: 100vw;
+}
+.desc {
+    flex-direction: column;
+    align-items: center;
+}
+.desc > p {
+    padding: 1rem 3rem;
+}
+
+/* Footer */
+footer {
+    font-size: x-large
+
+}
+
+}
+
+
+/* 
+CHALLENGE 1:
+    - If the user is viewing the page in a landscape mode on their phone (galaxy), increase the font size of the nav bar and footer.
+    - Include a bit of spacing within the footer so that the text isn't directly on the bottom of the screen.
+
+Your code below
+*/
+
+
+@media only screen and  (max-width: 740px) and (orientation: landscape) {
+
+    .testy {
+        font-size: 40pt;
+    }
+
+}
+
+/* Global */
+p {
+    font: 16 pt;
+}
+
+nav ul li {
+    font-size:  22px;
+    margin: 0 1.5rem;
+}
+
+
+
+
+
+@media screen (font-size)
+ {
+    nav   {
+        font-size: x-large;
+    }
+    footer   {
+        font-size: x-large;
+    }
+    
+
+}
+
+/*
+CHALLENGE 2:
+    - Create a media query to accept a screen AND the width of a iPhone SE (375px).
+    - Have the navigational options not display.
+    - Enlarge the Brand so that it is more of a focal point in the header. 
+        - approx. 30-40pt
+
+Your code below
+*/
+
+

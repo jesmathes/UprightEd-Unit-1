@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+
+<body>
+<!-- 
+Purpose:
+    -videos
+    -images
+    -maps
+    -more info and engagement
+
+Types:
+    -media
+    -other html
+    -ads
+    -maps, grafs, etc
+-->
+<!-- better comments ! red ?Blue etc -->
+<!-- ! Image -->
+<img src="https://imgs.search.brave.com/CvCz_h9vCKmD2oJ6HfxOPXclrQSLiS_7t-caNAfkAc8/rs:fit:1200:1000:1/g:ce/aHR0cDovL3d3dy5l/bWFnaWRsYS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTMv/MTAvaHRtbDUucG5n" 
+alt="sample"
+style=" height: 220px; width: 300px"
+>
+<!-- common files:
+-jpg/jpeg
+    -no transparency allowed
+    -raster (pixel) based 
+-png
+    - raster based
+    - supports transparect
+- svg
+    -scalable vector graphic
+    -vector based
+    -scales endefenitely.
+
+
+-->
+<br>
+<!-- ! iFrame -->
+<iframe 
+    src="https://www.december.com/html/spec/HTML5-Cheat-Sheet.pdf" 
+    title="HTML Cheatsheet"
+    frameborder="0"
+    height="500"
+    width="800"
+></iframe>
+    
+<!-- 
+    - can talke longer to load
+    - used to embed other docs
+    - utilizes attributes to detail element
+    - common to use for vids from dedicated hosts (YouTUbe, Vimeo)
+
+ -->
+ <br>
+
+<!-- ! Video -->
+<video width="400" height="200" controls>
+    <source src="#file.mp4" type="video/mp4"/>
+    <source src="#file.ogg" type="video/mp4"/>
+    <source src="#file.mov" type="video/mp4"/>
+    Unsupported File Type
+</video>
+<!--  
+    - option for locally stored videos
+    - control 
+        - provides a "play", "pause, "volume"
+    -source
+        - provides possible file formats for the users browser.
+            -runs from top to bottom
+
+-->
+<br>
+<!-- ! Audio -->
+
+<audio autoplay="false" muted="true" controls>
+    <source src="#audio.mp3" type="audio/mpeg"/>
+    <source src="#audio.ogg" type=""> 
+    <p>Error message here: Unsupported file</p>
+
+</audio>
+
+<!-- 
+    - autoplay
+    - starts audio when page loads
+    - accepts a boolean vaue (true/false) to either do this or not
+    - muted
+        -  depending on t/f can b muted on load
+    - loop
+        - repeats the audio after it's loaded
+-->
+
+
+<br>
+<!--  !Maps -->
+
+<iframe 
+title="Upright Address Location"
+src="https://www.openstreetmap.org/export/embed.html?bbox=-73.2130900,44.4749000,-73.2102500,44.4772200&layer=mapnik"
+width="400"
+height="300"
+></iframe>
+
+<!--  output="https://https://www.mapquest.com/search/Restaurants   alternative-->
+
+
+<!-- Additional
+<canvas> -can  b used for anima using JavaSCRIPT
+    FLASH  - no longer used as Adobe has retired it  in 2015 -->
+
+
+</body>
+</html>
